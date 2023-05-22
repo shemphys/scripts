@@ -1,3 +1,6 @@
+# pip install colorama
+# ctypes belongs to standar python lib
+
 import ctypes
 from colorama import init, Fore, Style
 
