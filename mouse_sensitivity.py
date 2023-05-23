@@ -21,8 +21,8 @@ def main():
     print(Style.RESET_ALL)  # Restablecer el color al predeterminado
 
     while True:
-        print(Fore.RED + "Miguel usa una sensibilidad de 4", Style.RESET_ALL)
-        print(Fore.BLUE + "Menci usa una sensibilidad de 400", Style.RESET_ALL)
+        print(Fore.RED + "Miguel usa una sensibilidad de 3", Style.RESET_ALL)
+        print(Fore.BLUE + "Menci usa una sensibilidad de 300", Style.RESET_ALL)
         nueva_sensibilidad = input("Ingrese un número entre 0 y 20 para establecer la sensibilidad del ratón (o 'q' para salir): ")
         if nueva_sensibilidad.lower() == 'q':
             break
