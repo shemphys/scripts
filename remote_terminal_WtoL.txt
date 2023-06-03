@@ -1,0 +1,23 @@
+HOW TO USE REMOTE LINUX TERMINAL FROM WINDOWS
+
+1. Instalar una WSL
+- Git Bash
+- MSYS2 MSYS
+(estoy usando MSYS2 MSYS porque fue la forma que seguí para instalar C en W11, sino estaría usando Git Bash porque fue la primera que usé)	
+
+2. Instalar SSH
+pacman -S openssh
+
+
+
+ssh -v user@host
+
+la -v corresponde a la verbosidad
+-vvv hace que te aparezca el debug cuando escribes una contraseña jajaja te llenas la pantalla de mensajes en un momento jajajaja
+
+
+
+
+
+
+

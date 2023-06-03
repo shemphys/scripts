@@ -1,0 +1,12 @@
+1. Instalar netcat y openssl
+sudo apt install netcat openssl
+
+En Windows usaremos un subsistema WSL: MSYS2 MSYS
+Usamos el mismo comando
+
+2. Creamos un certificado SSL/TLS
+Una máquina será el servidor y otra el cliente
+ambas podrán enviar y recibir mensajes
+pero una será el nodo al que el resto se conectan
+
+openssl reqq -x509 -newkey rsa:4096 -keyout key.pem -out cer.pem -days 365 -nodes
