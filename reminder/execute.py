@@ -5,7 +5,8 @@ import subprocess
 def ejecutar_matrix_rain():
 #	subprocess.call(['python', 'src/matrix_rain.py'])
 #	subprocess.call(['python', 'src/matrixxx.py'])
-	subprocess.call(['python', 'src/pymatrix-rain-master/pymatrix/pymatrix.py'])
+#	subprocess.call(['python', 'src/pymatrix-rain-master/pymatrix/pymatrix.py'])
+	subprocess.call(['python', 'src/mymatrix.py'])
 #	can't make pymatrix-rain work T-T
 
 # This function will go to other thread
